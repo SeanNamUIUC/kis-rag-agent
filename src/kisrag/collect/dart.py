@@ -13,10 +13,10 @@ Day 1: DART 공시 수집 스크립트
 
 
 """
-corp_codes.json	종목코드 → 고유번호	작음	수집할 때만
-meta/	공시 목록 (제목, 날짜, 번호)	작음	문서 필터링, 출처 표시
-raw/	공시 본문	큼	RAG의 핵심 재료
-summary.json	건수 집계	아주 작음	확인용
+corp_codes.json	종목코드 → 수집할 때만됨 사용됨
+meta/	공시 목록 (제목, 날짜, 번호) ->	문서 필터링, 출처 표시때 사용됨
+raw/	공시 본문 -> RAG의 핵심 재료
+summary.json	건수 집계-> 확인용
 
 """
 import argparse#명령어 option ex)--no-download 

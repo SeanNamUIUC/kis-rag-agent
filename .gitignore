@@ -11,3 +11,7 @@ __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+
+# 옛 가상환경, 설치 부산물
+.venv*/
+*.egg-info/
